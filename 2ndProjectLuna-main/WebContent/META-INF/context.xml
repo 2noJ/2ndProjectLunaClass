@@ -1,0 +1,7 @@
+<Context>
+	<Resource name="jdbc/maria" auth="Container"
+		type="javax.sql.DataSource" username="root" password="m1234"
+		driverClassName="org.mariadb.jdbc.Driver"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		url="jdbc:mariadb://localhost:3306/luna" maxActive="500" />
+</Context>
